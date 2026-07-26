@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Student Information Form</h3>
+    <!-- Form ko anothe page pe le jane ke liye -->
+     
+    <form action="Form_welcomepage.html">
+        First Name:
+        <input type="text" name="text" placeholder="Enter First name"><br><br>
+        Last Name:
+        <input type="text" placeholder="Enter Last name"><br><br>
+        <!-- label tag use for text pe click kre toh bhi hoo jaye click
+             for="101" id="101" jisse text pe click krne se hi radio button pe click hoo jayega 
+        -->
+        Degree:
+        <label for="101"><input type="radio" name="Degree" value="10th" id="101">Bachorler</label>
+        <label for="102"><input type="radio" name="Degree" value="12th" id="102">Master</label> <br><br>
+        
+        Fav Subjects:
+        <label for="101">
+        <input type="checkbox" name="sub1" id="101">Python</label>
+        <label for="102"><input type="checkbox" name="sub2">Java</label>
+        <label for="103"><input type="checkbox" name="sub3">Linux</label><br><br>
+
+        <textarea name="feedback" id="1" placeholder="Enter your valuebal feedback" cols="15" rows="5"></textarea>
+        <br><br>
+        
+        Select Field:
+        <select name="dropdown" id="100">
+            <option value="">Bsc IT</option>
+            <option value="">Msc IT</option>
+            <option value="">MCA</option>
+            <option value="">MBA</option>
+            <option value="">MA</option>
+        </select>
+        <br><br>
+        password:
+        <input type="password" placeholder="Enter password"><br><br>
+        <pre><input type="submit" >   <input type="reset"></pre>
+        
+
+    </form>
+</body>
+</html>
