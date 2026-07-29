@@ -1,0 +1,16 @@
+/*Color System RCB
+    R = RED
+    G = GREEN
+    B = BLUE
+
+    Google search
+    -color picker and select color and rcb color you access it.
+*/
+
+h1 {
+    color: rgb(38, 0, 255);
+}
+
+body {
+    background-color: rgb(255, 138, 228);
+}
