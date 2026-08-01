@@ -1,0 +1,29 @@
+/* universal selector */
+* {
+    color: rgb(186, 5, 126);
+}
+
+/* element selector */
+h1{
+    color: blueviolet;
+}
+
+/* Id selector */
+#headingOne{
+    color: brown;
+}
+
+#headingTwo{
+    color: darkmagenta;
+}
+
+/*class selector */
+.headingThree{
+    color: rgb(54, 24, 244);
+    background-color: bisque;
+}
+
+button{
+    color: deeppink;
+    background-color: bisque;
+}

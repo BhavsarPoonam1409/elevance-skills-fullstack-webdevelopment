@@ -1,0 +1,22 @@
+There are four type of selectors.
+
+1. universal selector
+    *{}
+
+2. elements selector
+    h1{}
+    button{}
+
+3. Id selector
+--Id individual hi honi chayiye sabko different id asign krke style add
+    html file me
+    <h1 id="HeadingOne">Heading one</h1>
+    style file
+    #HeadingOne{}
+
+4. Class selector
+--class same deh skte hain sabko same id deni hoo tab class use krege
+    html file
+    <h1 class="HeadingOne">HeadingOne</h1>
+    style file
+    .HeadingOne{}
