@@ -1,0 +1,17 @@
+p {
+    text-align: center;
+}
+
+h1{
+    text-decoration: underline;
+    text-decoration-color: blue; /*Thats for underline color not for text color*/
+    text-decoration-style: dashed;
+}
+h2 {
+    text-decoration: overline;
+    text-decoration: brown wavy underline;
+}
+
+h3{
+    text-decoration: line-through;
+}

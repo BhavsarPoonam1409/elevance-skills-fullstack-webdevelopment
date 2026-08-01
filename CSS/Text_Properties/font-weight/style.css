@@ -1,0 +1,25 @@
+/* 100 to 900 ke bich me bhi deh skte hain weight*/
+/* 100 lighter and 900 dark */
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+h4{
+    font-weight: normal;
+}
+
+p {
+    font-weight: 900;
+}
+
+pre{
+    font-weight: 200;
+}
