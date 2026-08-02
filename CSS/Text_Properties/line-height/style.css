@@ -1,0 +1,17 @@
+#one{
+    line-height: 25px;
+}
+
+h1{
+    text-align: center;
+    
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dashed;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+    font-width: 900; 
+}
